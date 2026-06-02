@@ -4,64 +4,64 @@
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  /* Premium Indigo Backgrounds */
-  --bg-primary: #07101d;
-  --bg-secondary: #0e1f38;
-  --bg-tertiary: #1f3560;
+  /* Clean Light Backgrounds */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #edf2f7;
+  --bg-tertiary: #e2e8f0;
   
   /* Glassmorphism Specs */
-  --bg-card: rgba(16, 30, 63, 0.9);
-  --bg-card-hover: rgba(31, 49, 91, 0.95);
-  --bg-input: rgba(18, 34, 70, 0.92);
-  --bg-input-focus: rgba(56, 189, 248, 0.18);
-  --backdrop-blur: blur(26px);
+  --bg-card: rgba(255, 255, 255, 0.95);
+  --bg-card-hover: rgba(255, 255, 255, 1);
+  --bg-input: rgba(255, 255, 255, 0.92);
+  --bg-input-focus: rgba(59, 130, 246, 0.16);
+  --backdrop-blur: blur(24px);
 
-  /* Curated Neon Accents */
-  --accent-primary: #38bdf8; /* Bright Sky */
-  --accent-secondary: #7c3aed; /* Vibrant Indigo */
+  /* Curated Accent Palette */
+  --accent-primary: #0ea5e9; /* Sky Blue */
+  --accent-secondary: #7c3aed; /* Indigo */
   --accent-tertiary: #fb7185; /* Coral */
   
-  --gradient-primary: linear-gradient(135deg, #38bdf8, #7c3aed);
-  --gradient-primary-hover: linear-gradient(135deg, #0ea5e9, #4f46e5);
+  --gradient-primary: linear-gradient(135deg, #0ea5e9, #7c3aed);
+  --gradient-primary-hover: linear-gradient(135deg, #38bdf8, #6366f1);
   --gradient-accent: linear-gradient(135deg, #7c3aed, #fb7185);
-  --gradient-text: linear-gradient(135deg, #38bdf8 0%, #7c3aed 50%, #fb7185 100%);
+  --gradient-text: linear-gradient(135deg, #0ea5e9 0%, #7c3aed 50%, #fb7185 100%);
 
-  /* Premium Status Colors with Neon Glows */
+  /* Status Colors */
   --color-success: #10b981;
-  --color-success-bg: rgba(16, 185, 129, 0.08);
+  --color-success-bg: rgba(16, 185, 129, 0.12);
   --color-warning: #f59e0b;
-  --color-warning-bg: rgba(245, 158, 11, 0.08);
+  --color-warning-bg: rgba(245, 158, 11, 0.12);
   --color-danger: #ef4444;
-  --color-danger-bg: rgba(239, 68, 68, 0.08);
+  --color-danger-bg: rgba(239, 68, 68, 0.12);
   --color-info: #0ea5e9;
-  --color-info-bg: rgba(14, 165, 233, 0.08);
+  --color-info-bg: rgba(14, 165, 233, 0.12);
 
-  /* Refined Typography Text */
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-tertiary: #64748b;
-  --text-inverse: #05070e;
+  /* Typography */
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-tertiary: #6b7280;
+  --text-inverse: #ffffff;
 
-  /* Glass Borders */
-  --border-color: rgba(255, 255, 255, 0.05);
-  --border-color-hover: rgba(6, 182, 212, 0.25);
-  --border-color-focus: rgba(6, 182, 212, 0.6);
+  /* Borders */
+  --border-color: rgba(148, 163, 184, 0.18);
+  --border-color-hover: rgba(148, 163, 184, 0.3);
+  --border-color-focus: rgba(59, 130, 246, 0.32);
 
-  /* Radius System */
+  /* Radius */
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 18px;
   --radius-xl: 24px;
   --radius-full: 9999px;
 
-  /* Premium Multi-layered Shadows & Ambient Glows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6);
-  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.7);
-  --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.8);
-  --shadow-glow: 0 0 24px rgba(6, 182, 212, 0.18);
-  --shadow-glow-success: 0 0 24px rgba(16, 185, 129, 0.18);
-  --shadow-glow-danger: 0 0 24px rgba(239, 68, 68, 0.18);
+  /* Shadows */
+  --shadow-sm: 0 2px 10px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 10px 30px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 20px 50px rgba(15, 23, 42, 0.15);
+  --shadow-xl: 0 24px 64px rgba(15, 23, 42, 0.18);
+  --shadow-glow: 0 0 24px rgba(14, 165, 233, 0.12);
+  --shadow-glow-success: 0 0 24px rgba(16, 185, 129, 0.12);
+  --shadow-glow-danger: 0 0 24px rgba(239, 68, 68, 0.12);
 
   /* Spacing */
   --space-xs: 6px;
@@ -332,10 +332,10 @@ img {
   top: 0;
   bottom: 0;
   width: var(--sidebar-width);
-  background: rgba(10, 13, 24, 0.85);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
-  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  border-right: 1px solid rgba(148, 163, 184, 0.16);
   display: flex;
   flex-direction: column;
   z-index: 100;
