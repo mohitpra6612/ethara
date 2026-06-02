@@ -4,27 +4,27 @@
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  /* Premium Dark Obsidian Backgrounds */
-  --bg-primary: #071326;
-  --bg-secondary: #0d1e3a;
-  --bg-tertiary: #13274b;
+  /* Premium Indigo Backgrounds */
+  --bg-primary: #07101d;
+  --bg-secondary: #0e1f38;
+  --bg-tertiary: #1f3560;
   
   /* Glassmorphism Specs */
-  --bg-card: rgba(8, 17, 37, 0.72);
-  --bg-card-hover: rgba(14, 28, 54, 0.78);
-  --bg-input: rgba(15, 28, 52, 0.72);
-  --bg-input-focus: rgba(29, 78, 216, 0.14);
-  --backdrop-blur: blur(24px);
+  --bg-card: rgba(16, 30, 63, 0.9);
+  --bg-card-hover: rgba(31, 49, 91, 0.95);
+  --bg-input: rgba(18, 34, 70, 0.92);
+  --bg-input-focus: rgba(56, 189, 248, 0.18);
+  --backdrop-blur: blur(26px);
 
   /* Curated Neon Accents */
-  --accent-primary: #38bdf8; /* Sky Blue */
-  --accent-secondary: #818cf8; /* Soft Indigo */
-  --accent-tertiary: #a855f7; /* Electric Purple */
+  --accent-primary: #38bdf8; /* Bright Sky */
+  --accent-secondary: #7c3aed; /* Vibrant Indigo */
+  --accent-tertiary: #fb7185; /* Coral */
   
-  --gradient-primary: linear-gradient(135deg, #38bdf8, #818cf8);
-  --gradient-primary-hover: linear-gradient(135deg, #60a5fa, #6366f1);
-  --gradient-accent: linear-gradient(135deg, #818cf8, #a855f7);
-  --gradient-text: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #a855f7 100%);
+  --gradient-primary: linear-gradient(135deg, #38bdf8, #7c3aed);
+  --gradient-primary-hover: linear-gradient(135deg, #0ea5e9, #4f46e5);
+  --gradient-accent: linear-gradient(135deg, #7c3aed, #fb7185);
+  --gradient-text: linear-gradient(135deg, #38bdf8 0%, #7c3aed 50%, #fb7185 100%);
 
   /* Premium Status Colors with Neon Glows */
   --color-success: #10b981;
