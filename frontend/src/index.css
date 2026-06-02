@@ -340,8 +340,7 @@ img {
   flex-direction: column;
   z-index: 100;
   transition: transform var(--transition-slow);
-  transform: translateX(-100%);
-  /* hidden by default */
+  transform: translateX(0);
 }
 
 .sidebar.open {
