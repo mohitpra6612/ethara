@@ -19,7 +19,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Inventory & Order Management API",
+    title="Order Management System API",
     lifespan=lifespan,
 )
 
