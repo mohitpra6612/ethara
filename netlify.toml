@@ -5,3 +5,8 @@
 
 [build.environment]
   VITE_API_URL = "https://ethara-putx.onrender.com/api"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
